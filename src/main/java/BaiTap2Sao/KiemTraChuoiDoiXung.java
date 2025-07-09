@@ -7,8 +7,8 @@ public class KiemTraChuoiDoiXung {
     //Hàm kiểm tra chuỗi đối xứng
     public static boolean laDoiXung (String input){
         //kỹ thuật 2 con trỏ:
-        int inputIndexTrai = 0;//trỏ vào kí tự đầu tiên của chuỗi
-        int inputIndexPhai = input.length() - 1;//trỏ vào kí tự cuối cùng của chuỗi
+        int inputIndexTrai = 0;//trỏ vào ký tự đầu tiên của chuỗi
+        int inputIndexPhai = input.length() - 1;//trỏ vào ký tự cuối cùng của chuỗi
 
         while (inputIndexTrai<inputIndexPhai){
             if(input.charAt(inputIndexTrai) != input.charAt(inputIndexPhai)){

@@ -12,9 +12,9 @@ public class BaiTap1 {
                 // +1 vì đề yêu cầu chỉ số bắt đầu từ 1
                 return new int[]{left + 1, right + 1};
             } else if (sum < target) {
-                left++;                   // cần tổng lớn hơn → dịch trái sang phải
+                left++;  // cần tổng lớn hơn → dịch trái sang phải
             } else {
-                right--;                  // tổng quá lớn → dịch phải sang trái
+                right--; // tổng quá lớn → dịch phải sang trái
             }
         }
 //        Không tìm thấy cặp thỏa mãn sẽ trả giá trị “không hợp lệ”

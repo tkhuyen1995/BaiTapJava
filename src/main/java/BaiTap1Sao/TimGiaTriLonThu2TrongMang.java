@@ -1,4 +1,4 @@
-package org.example.BaiTap1Sao;
+package BaiTap1Sao;
 
 public class TimGiaTriLonThu2TrongMang {
     public static int findSecondMax(int[] arr){

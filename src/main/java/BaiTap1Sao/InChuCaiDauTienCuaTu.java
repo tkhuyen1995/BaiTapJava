@@ -1,4 +1,4 @@
-package org.example.BaiTap1Sao;
+package BaiTap1Sao;
 
 import java.util.Scanner;
 
